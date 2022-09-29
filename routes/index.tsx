@@ -4,15 +4,14 @@ export default function Home() {
   return (
     <div class="p-4 mx-auto max-w-screen-md">
       <img
-        src="/logo.svg"
-        class="w-32 h-32"
-        alt="the fresh logo: a sliced lemon dripping with juice"
+        src="/logo.png"
+        class="w-48"
+        alt="AWebFactory"
       />
       <p class="my-6">
-        Welcome to <span class="bg-yellow-600">AWebFactory.org</span>{" "}
+        Welcome to <span class="bg-yellow-100">AWebFactory.org</span>{" "}
         on `fresh`.
       </p>
-      <Counter start={3} />
     </div>
   );
 }
