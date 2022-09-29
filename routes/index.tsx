@@ -9,9 +9,8 @@ export default function Home() {
         alt="the fresh logo: a sliced lemon dripping with juice"
       />
       <p class="my-6">
-        Welcome to <span class="bg-gray-500">AWebFactory.org</span>{" "}
-        on `fresh`. Try updating this message in the ./routes/index.tsx file,
-        and refresh.
+        Welcome to <span class="bg-yellow-600">AWebFactory.org</span>{" "}
+        on `fresh`.
       </p>
       <Counter start={3} />
     </div>
