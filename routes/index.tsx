@@ -29,7 +29,12 @@ export default function Home() {
                 <a href="/">
                   <img
                     src="/logo.png"
-                    class="w-[150px] h-[41px]"
+                    class="w-0 sm:w-[150px] h-0 sm:h-[41px]"
+                    alt="AWebFactory"
+                  />
+                  <img
+                    src="/icon170.png"
+                    class="w-15 h-15 sm:w-0 sm:h-0"
                     alt="AWebFactory"
                   />
                 </a>
