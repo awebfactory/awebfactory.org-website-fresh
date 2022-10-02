@@ -1,5 +1,6 @@
 import { Head } from "$fresh/runtime.ts";
 import { site } from "../data/site.ts";
+import { Footer } from "../components/Footer.tsx";
 
 export default function Home() {
   return (
@@ -78,6 +79,7 @@ export default function Home() {
           </main>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
