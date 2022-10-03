@@ -8,10 +8,11 @@ export default function App({ Component }: AppProps) {
   return (
     <html>
       <Head>
+        {/* TODO Refactor non-redundancy of including Head capable of overwriting _app with each page */}
         {/* Primary Meta Tags */}
-        <title>{site.title}</title>
-        <meta name="title" content={site.title} />
-        <meta name="description" content={site.description} />
+        {/* <title>{site.title}</title> */}
+        {/* <meta name="title" content={site.title} /> */}
+        {/* <meta name="description" content={site.description} /> */}
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />

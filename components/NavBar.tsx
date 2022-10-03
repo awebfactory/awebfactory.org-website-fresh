@@ -19,7 +19,7 @@ export function NavBar() {
           </div>
           <div class="my-auto gap-x-16 flex flex-wrap mx-6 md:mx-4 justify-end">
             <a
-              href="/projects"
+              href="/project"
               class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
             >
               Projects
