@@ -1,20 +1,33 @@
-import { Head } from "$fresh/runtime.ts";
+import { PageProps } from "$fresh/server.ts";
+import { HeadElement } from "../components/HeadElement.tsx";
+import { NavBar } from "../components/NavBar.tsx";
+import { Footer } from "../components/Footer.tsx";
 import { site } from "../data/site.ts";
-import { TheHead } from "../components/TheHead.tsx";
 
-export default function Home() {
+const TITLE = site.title;
+const DESCRIPTION = site.description;
+
+export default function Home(props: PageProps) {
   return (
-    <div class="px-0 pt-0 pb-4 mx-auto max-w-screen-full">
-      <div class="py-10">
-        <header class="px-6">
-          <h1>Welcome to AWebFactory Project Flow &amp; Tracker</h1>
-          <h2>web application factory pattern</h2>
-          <h3>workspaces for web application process</h3>
-          <TheHead />
-        </header>
-        <main>
-        </main>
+    <html style="scroll-behavior: smooth;">
+      <HeadElement
+        title={TITLE}
+        description={DESCRIPTION}
+        url={props.url}
+      />
+      <NavBar />
+      <div class="px-0 pt-0 pb-4 mx-auto max-w-screen-full">
+        <div class="py-10">
+          <header class="px-6">
+            <h1>Welcome to AWebFactory Project Flow &amp; Tracker</h1>
+            <h2>web application factory pattern</h2>
+            <h3>workspaces for web application process</h3>
+          </header>
+          <main>
+          </main>
+        </div>
       </div>
-    </div>
+      <Footer />
+    </html>
   );
 }

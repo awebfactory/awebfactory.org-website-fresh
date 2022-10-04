@@ -1,5 +1,5 @@
 export const site = {
-  title: "AWebFactory Project Flow &amp; Tracker",
+  title: "AWebFactory Project Flow & Tracker",
   description:
     "An AWebFactory #BuildInPublic #LearnInPublic website built with Fresh",
   // This should be a url to the static file you're using for your open graph image
