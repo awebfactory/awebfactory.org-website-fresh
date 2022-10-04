@@ -8,8 +8,6 @@ export const site = {
   // The url of the source code for the site, used in the footer.
   // viewSourceUrl: "https://github.com/littlesticks/fresh-blog",
   pathToTitleMap: {
-    "/about": "About",
-    "/project": { title: "Project Flow & Tracker", description: "pft" },
     "/process": "Agile/LeanUX Process",
     "/resource": "AWebFactory Resources",
     "privacy": "Privacy",
