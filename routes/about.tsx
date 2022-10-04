@@ -8,6 +8,8 @@ export default function About(props: PageProps) {
     <>
       <Head>
         <title>{title} | {site.title}</title>
+        <meta name="title" content={site.title} />
+        <meta name="description" content={site.description} />
       </Head>
       <div class="p-4 mx-auto max-w-screen-md">
         <p class="my-6">

@@ -1,5 +1,6 @@
 import { Head } from "$fresh/runtime.ts";
 import { site } from "../data/site.ts";
+import { TheHead } from "../components/TheHead.tsx";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
           <h1>Welcome to AWebFactory Project Flow &amp; Tracker</h1>
           <h2>web application factory pattern</h2>
           <h3>workspaces for web application process</h3>
+          <TheHead />
         </header>
         <main>
         </main>
