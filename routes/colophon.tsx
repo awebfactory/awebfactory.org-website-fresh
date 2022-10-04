@@ -4,12 +4,12 @@ import { NavBar } from "../components/NavBar.tsx";
 import { Footer } from "../components/Footer.tsx";
 import { site } from "../data/site.ts";
 
-const TITLE = "Privacy";
+const TITLE = "Colophon";
 const METATITLE = `${TITLE} | ${site.title}`;
 const DESCRIPTION =
-  "AWebFactory shout out to loved ones and supporters making this work possible";
+  "AWebFactory Colophon: cms, design system, frontend and backend stack, tools, dev, staging and deployment environments, hosting and more";
 
-export default function ThankYou(props: PageProps) {
+export default function Colophon(props: PageProps) {
   return (
     <html style="scroll-behavior: smooth;">
       <HeadElement

@@ -6,14 +6,15 @@ import config from "./deno.json" assert { type: "json" };
 import * as $0 from "./routes/[name].tsx";
 import * as $1 from "./routes/about.tsx";
 import * as $2 from "./routes/api/project.ts";
-import * as $3 from "./routes/index.tsx";
-import * as $4 from "./routes/privacy.tsx";
-import * as $5 from "./routes/process.tsx";
-import * as $6 from "./routes/project/[project].tsx";
-import * as $7 from "./routes/project/index.tsx";
-import * as $8 from "./routes/resource.tsx";
-import * as $9 from "./routes/settings.tsx";
-import * as $10 from "./routes/thank-you.tsx";
+import * as $3 from "./routes/colophon.tsx";
+import * as $4 from "./routes/index.tsx";
+import * as $5 from "./routes/privacy.tsx";
+import * as $6 from "./routes/process.tsx";
+import * as $7 from "./routes/project/[project].tsx";
+import * as $8 from "./routes/project/index.tsx";
+import * as $9 from "./routes/resource.tsx";
+import * as $10 from "./routes/settings.tsx";
+import * as $11 from "./routes/thank-you.tsx";
 import * as $$0 from "./islands/Counter.tsx";
 
 const manifest = {
@@ -21,14 +22,15 @@ const manifest = {
     "./routes/[name].tsx": $0,
     "./routes/about.tsx": $1,
     "./routes/api/project.ts": $2,
-    "./routes/index.tsx": $3,
-    "./routes/privacy.tsx": $4,
-    "./routes/process.tsx": $5,
-    "./routes/project/[project].tsx": $6,
-    "./routes/project/index.tsx": $7,
-    "./routes/resource.tsx": $8,
-    "./routes/settings.tsx": $9,
-    "./routes/thank-you.tsx": $10,
+    "./routes/colophon.tsx": $3,
+    "./routes/index.tsx": $4,
+    "./routes/privacy.tsx": $5,
+    "./routes/process.tsx": $6,
+    "./routes/project/[project].tsx": $7,
+    "./routes/project/index.tsx": $8,
+    "./routes/resource.tsx": $9,
+    "./routes/settings.tsx": $10,
+    "./routes/thank-you.tsx": $11,
   },
   islands: {
     "./islands/Counter.tsx": $$0,
