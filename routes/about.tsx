@@ -17,10 +17,8 @@ export default function About(props: PageProps) {
         url={props.url}
       />
       <NavBar />
-      <div class="p-4 mx-auto max-w-screen-md">
-        <p class="my-6">
-          <h2>{TITLE}</h2>
-        </p>
+      <div class="mx-auto p-4 max-w-screen-md">
+        <h2>{TITLE}</h2>
       </div>
       <Footer />
     </html>
