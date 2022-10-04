@@ -12,7 +12,7 @@ export function NavBar() {
               />
               <img
                 src="/icon170.png"
-                class="w-15 h-15 sm:w-0 sm:h-0"
+                class="w-24 h-16 sm:w-0 sm:h-0"
                 alt="AWebFactory"
               />
             </a>
