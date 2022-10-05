@@ -16,7 +16,7 @@ export default function Home(props: PageProps) {
         url={props.url}
       />
       <NavBar />
-      <div class="px-0 pt-0 pb-4 mx-auto max-w-screen-full">
+      <div class="mx-auto p-4 max-w-screen-md">
         <div class="py-10">
           <header class="px-6">
             <h1>Welcome to AWebFactory Project Flow &amp; Tracker</h1>
