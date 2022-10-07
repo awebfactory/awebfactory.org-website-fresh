@@ -17,11 +17,13 @@ export default function Home(props: PageProps) {
       />
       <NavBar />
       <div class="mx-auto p-4 max-w-screen-md">
-        <div class="py-10">
-          <header class="px-6">
-            <h1>Welcome to AWebFactory Project Flow &amp; Tracker</h1>
-            <h2>web application factory pattern</h2>
-            <h3>workspaces for web application process</h3>
+        <div>
+          <header>
+            <h1 class="text-5xl">
+              Welcome to AWebFactory Project Flow &amp; Tracker
+            </h1>
+            <h2 class="text-4xl">web application factory pattern</h2>
+            <h3 class="text-3xl">workspaces for web application process</h3>
           </header>
           <main>
           </main>

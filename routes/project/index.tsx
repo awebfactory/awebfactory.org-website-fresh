@@ -18,7 +18,7 @@ export default function Project(props: PageProps) {
       />
       <NavBar />
       <div class="p-4 mx-auto max-w-screen-md">
-        <h2 class="text-5xl">
+        <h2 class="text-4xl">
           {TITLE}
         </h2>
         <h2 class="text-4xl">
