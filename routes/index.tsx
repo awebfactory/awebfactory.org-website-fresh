@@ -28,6 +28,26 @@ export default function Home(props: PageProps) {
           image="/images/drupalpicchuworkshop.jpg"
           imageAlt="Drupal Picchu 2014 Workshop"
         />
+        <div class="mx-8 text-sm italic text-gray-400">
+          <p>
+            Victor Kane, Worker/Owner@AWebFactory.com, leading a workshop
+            "Backdrop as an alternative and healthy evolution for Drupal 7"
+            (Spanish: "Backdrop como evolución alternativa y sana para Drupal
+            7") at DrupalPicchu community summit held in Cusco, Peru on January
+            20-24, 2014
+          </p>
+          <div class="relative overflow-hidden h-0 pb-[56%] pt-[30px]">
+            <iframe
+              class="absolute h-full ml-0 mt-0 w-full"
+              src="https://www.youtube.com/embed/6wqHf9Yv0c0"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+        </div>
       </header>
       <div class="mx-auto max-w-screen-md">
         <main>
@@ -41,12 +61,13 @@ export default function Home(props: PageProps) {
                   What we build, what we learn, is ours forever
                 </h3>
                 <p class="mt-4 text-lg text-gray-500">
-                  So, let's abandon "enterprise" monoliths and their $ "plugin"
-                  exploitation of users. Let's struggle against the means of
-                  communication as monopoly. Let's move to tomorrow's free
-                  software decoupled alternatives. Let's work together and put
-                  an end to the mystification of skills with diverse teams over
-                  elitist rockstars
+                  So, today, in 2022, for full-stack and JAMstack solutions,
+                  let's continue to abandon "enterprise" monoliths and their $
+                  "plugin" exploitation of users. Let's struggle against the
+                  means of communication as monopoly. Let's move to tomorrow's
+                  free software decoupled alternatives. Let's work together and
+                  put an end to the mystification of skills with diverse teams
+                  over elitist rockstars
                 </p>
               </div>
               <dl class="mt-12 space-y-10 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
