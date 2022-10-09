@@ -4,9 +4,11 @@ import { apply } from "twind";
 /*
   awf-dark-brown     "potters-clay-600"
   awf-light-green      "wild-willow-400"
+    awf-dark-green      "limeade-400"
   awf-light-orange      "texas-rose-300"
   awf-dark-green      "limeade-700"
-  awf-dark-orange      "orange-peel-500"
+  awf-dark-orange      "texas-rose-500"
+    awf-dark-orange      "orange-peel-500"
 */
 
 export default {
