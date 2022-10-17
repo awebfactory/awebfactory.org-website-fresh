@@ -8,7 +8,8 @@ import { Fragment } from "preact";
 const posts = [
   {
     title: "AWebFactory.org (this site)",
-    href: "#",
+    href: "awf-org",
+    shortname: "awf.org",
     category: { name: "Article", href: "#" },
     description:
       "AWebFactory.org will continue the Project Flow & Tracker project, and build on the app as a community resource as a #BuildInPublic and #LearnInPublic open resource and based on an ongoing Lean/UX and Agile process of adding value, prototyping, and testing with ongoing MVP pivoting and extensibility",
@@ -25,7 +26,8 @@ const posts = [
   },
   {
     title: "AWebFactory.com: Migration from WordPress to Deno Fresh",
-    href: "#",
+    href: "awf-com",
+    shortname: "awf.com",
     category: { name: "Video", href: "#" },
     description:
       "We'll migrate multiple ways (headless wordpress and/or directus as cms for Deno Fresh front end; as well as trying a content first local file-system based markdown file approach",
@@ -42,7 +44,8 @@ const posts = [
   },
   {
     title: "Praxispoetica Space Indie publisher community platform",
-    href: "#",
+    href: "praxispoetica-space",
+    shortname: "praxispoetica.space",
     category: { name: "Case Study", href: "#" },
     description:
       "Similar in scope to somethng like Reedsy, but run by the community itself instead of a corporation, and including resources such as a retrospective (1976-77)of the Alberto Mediza Buenos Aires Poetry Writing Workshop",
@@ -60,7 +63,8 @@ const posts = [
   {
     title:
       "VictorKane.com: Indie publishing site for the literary works of Victor Kane",
-    href: "#",
+    href: "victorkane-com",
+    shortname: "victorkane.com",
     category: { name: "Case Study", href: "#" },
     description:
       "Subscriber-assisted online collection of works, including paid options to download all works in various formats (pdf, epub, etc.)",
@@ -92,7 +96,6 @@ export default function Project(props: PageProps) {
       <NavBar />
       <main class="p-4 mx-auto max-w-screen-md">
         <h2 class="text-4xl">
-          {TITLE}
         </h2>
         <h3>
           {DESCRIPTION}
@@ -140,16 +143,16 @@ export default function Project(props: PageProps) {
                   </div>
                   <div className="flex flex-1 flex-col justify-between bg-white p-6">
                     <div className="flex-1">
-                      <p className="text-sm font-medium text-wild-willow-400">
+                      <p className="text-sm font-normal">
                         <a
-                          href={post.category.href}
+                          href="#"
                           className="hover:underline"
                         >
                           {post.category.name}
                         </a>
                       </p>
-                      <a href={post.href} className="mt-2 block">
-                        <p className="text-xl font-semibold text-gray-900">
+                      <a href={`project/${post.href}`} className="mt-2 block">
+                        <p className="text-xl font-semibold text-orange-peel-800 hover:text-wild-willow-400">
                           {post.title}
                         </p>
                         <p className="mt-3 text-base text-gray-500">
